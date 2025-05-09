@@ -17,6 +17,7 @@ body {
     box-shadow: 0 8px 20px rgba(44, 46, 42, 0.3);
     width: 450px;
     text-align: center;
+    border:2px solid black;
   }
 
   h2 {
