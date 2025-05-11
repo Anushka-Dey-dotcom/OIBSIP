@@ -1,19 +1,19 @@
 
-const sections = document.querySelectorAll('.card'); // Select all sections
+const sections = document.querySelectorAll('.card'); 
 
 const observer = new IntersectionObserver((entries) => {
 entries.forEach((entry) => {
 if (entry.isIntersecting) {
-  entry.target.classList.add('visible'); // Add 'visible' class when section is in view
+  entry.target.classList.add('visible'); 
 } else {
-  entry.target.classList.remove('visible'); // Remove when not in view
+  entry.target.classList.remove('visible'); 
 }
 });
 }, {
-threshold: 0.1 // Trigger animation when 10% of the element is visible
+threshold: 0.1 
 });
 
-// Observe all sections
+
 sections.forEach((section) => {
 observer.observe(section);
 });

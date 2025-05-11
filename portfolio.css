@@ -80,22 +80,22 @@ margin-bottom: 30px;
 }
 
 .about-heading {
-color: #ff6347; /* Tomato red for About */
+color: #ff6347; 
 }
 
 .skills-heading {
-color: #ffcc00; /* Yellow for Skills */
+color: #ffcc00; 
 }
 
 .projects-heading {
-color: #4facfe; /* Blue for Projects */
+color: #4facfe;
 }
 
 .contact-heading {
-color: #c33764; /* Pinkish red for Contact */
+color: #c33764; 
 }
 
-/* Skills Section */
+
 .skills-section {
 display: flex;
 justify-content: center;
@@ -137,32 +137,31 @@ font-weight: bold;
 color: #0e76a8;
 }
 
-/* Custom Icon Colors */
+
 .html5-icon {
-color: #e34f26; /* Orange for HTML5 */
+color: #e34f26; 
 }
 
 .react-icon {
-color: #61dafb; /* Blue for React */
+color: #61dafb; 
 }
 
 .js-icon {
-color: #f7df1e; /* Yellow for JavaScript */
+color: #f7df1e; 
 }
 
 .git-icon {
-color: #f1502f; /* Red for Git */
+color: #f1502f; 
 }
 
 .node-icon {
-color: #68a063; /* Green for Node.js */
+color: #68a063;
 }
-
 .mongodb-icon {
-color: #47a248; /* Green for MongoDB */
+color: #47a248; 
 }
 
-/* Projects Section */
+
 .project-section {
 background: #f7f9fc;
 padding: 60px 20px;
@@ -201,7 +200,7 @@ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 
 
 .project-box:hover {
-cursor: pointer; /* 👈 now inside :hover for extra certainty */
+cursor: pointer; 
 }
 
 #col:hover{
@@ -211,10 +210,10 @@ text-decoration:none;
 margin-bottom: 10px;
 color: #20afe7;
 }
-/* Common Section Borders and Box Shadows */
+
 .card,
 .project-section {
-border: 2px solid rgba(0, 0, 0, 0.1); /* Default fallback */
+border: 2px solid rgba(0, 0, 0, 0.1); 
 box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
 border-radius: 12px;
 padding: 40px 20px;
@@ -222,33 +221,33 @@ background: #FFE2DA;
 margin-bottom: 60px;
 }
 
-/* Unique Border Colors for Each Section */
+
 #about {
-border-color: rgba(255, 99, 71, 0.3); /* Tomato */
+border-color: rgba(255, 99, 71, 0.3); 
 box-shadow: 0 4px 20px rgba(255, 99, 71, 0.15);
 }
 
 #skills {
-border-color: rgba(255, 204, 0, 0.3); /* Yellow */
+border-color: rgba(255, 204, 0, 0.3); 
 box-shadow: 0 4px 20px rgba(255, 204, 0, 0.15);
 }
 
 #projects {
-border-color: rgba(79, 172, 254, 0.3); /* Blue */
+border-color: rgba(79, 172, 254, 0.3); 
 box-shadow: 0 4px 20px rgba(79, 172, 254, 0.15);
 }
 
 #contact {
-border-color: rgba(195, 55, 100, 0.3); /* Pink */
+border-color: rgba(195, 55, 100, 0.3); 
 box-shadow: 0 4px 20px rgba(195, 55, 100, 0.15);
 }
 
-/* Project Boxes Hover - Hand Icon */
+
 .project-box {
 cursor: pointer;
 }
 
-/* Optional: success message animation */
+
 #successMessage {
 animation: fadeIn 0.5s ease-in-out;
 }
@@ -259,7 +258,7 @@ to { opacity: 1; }
 }
 
 
-/* Contact Form Styling */
+
 .contact-form {
 margin-top: 30px;
 display: flex;
@@ -335,108 +334,30 @@ text-align:center;
 font-size:40px bold;
 
 }
-/* Custom Icon Colors */
+
 .html5-icon {
-color: #e34f26; /* Orange for HTML5 */
+color: #e34f26; 
 }
 
 .react-icon {
-color: #61dafb; /* Blue for React */
+color: #61dafb; 
 }
 
 .js-icon {
-color: #f7df1e; /* Yellow for JavaScript */
+color: #f7df1e; 
 }
 
 .git-icon {
-color: #f1502f; /* Red for Git */
+color: #f1502f; 
 }
 
 .node-icon {
-color: #68a063; /* Green for Node.js */
+color: #68a063; 
 }
 
 .mongodb-icon {
-color: #47a248; /* Green for MongoDB */
+color: #47a248; 
 }
 html {
 scroll-behavior: smooth;
 }
-/* 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  #col{
-    font-size: 24px;
-font-weight: 900;
-
-  }
-  
-  body {
-    background-color: #f5f5f5;
-    color: #333;
-  }
-  
-  header {
-    background-color: #0e76a8;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  nav {
-    margin-top: 10px;
-  }
-  
-  nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-  }
-  
-  .container {
-    max-width: 1000px;
-    margin: 40px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .section {
-    margin-bottom: 40px;
-  }
-  
-  h2 {
-    margin-bottom: 20px;
-    color: #0e76a8;
-  }
-  
-  ul {
-    list-style-type: square;
-    padding-left: 20px;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #0e76a8;
-    color: white;
-  }
-  .project-boxes {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 20px;
-  }
-  
-  .project-box {
-    background-color: #e3f2fd;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  } */
